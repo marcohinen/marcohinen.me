@@ -18,6 +18,9 @@ describe('app spec', () => {
             });
         },
       });
+      //TODO: fix this, shouldn't have to wait
+      // eslint-disable-next-line cypress/no-unnecessary-waiting
+      cy.wait(2000);
       cy.get('[data-testid="dark-mode-toggle"]').click();
 
       cy.get('html').should('have.class', 'light');

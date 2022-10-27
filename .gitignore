@@ -49,3 +49,4 @@ storybook-static
 #cypress
 cypress/videos
 cypress/screenshots
+.vscode
