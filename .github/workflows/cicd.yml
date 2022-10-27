@@ -15,20 +15,20 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use Node 16
+      - name: Use Node 18
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-          cache: yarn
+          node-version: 18.x
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
       - name: Run Type Checking
-        run: yarn check-types
+        run: npm check-types
 
       - name: Run linting
-        run: yarn lint
+        run: npm run lint
 
   unit-testing:
     runs-on: ubuntu-latest
@@ -38,17 +38,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use Node 16
+      - name: Use Node 18
         uses: actions/setup-node@v3
         with:
-          node-version: 16.x
-          cache: yarn
+          node-version: 18.x
+          cache: npm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
-      - name: Run jest tests
-        run: yarn test:coverage
+      # - name: Run jest tests
+      #   run: npm test:coverage
 
   e2e-testing:
     runs-on: ubuntu-latest
@@ -60,5 +60,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          build: yarn build
-          start: yarn start
+          build: npm run build
+          start: npm run start
