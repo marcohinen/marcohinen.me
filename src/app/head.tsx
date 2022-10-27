@@ -27,6 +27,7 @@ const Head = () => {
       <meta name="msapplication-TileColor" content="#603cba" />
       <meta property="og:title" content="Marco Hinen - Personal website" />
       <meta content="Personal website" name="description" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Marco Hinen - Personal Website</title>
     </head>
   );
