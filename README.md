@@ -1,17 +1,18 @@
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?logo=typescript&logoColor=white&style=for-the-badge)
-![Next JS ](https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white&style=for-the-badge)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white&style=for-the-badge)
-
 # marcohinen.me
 
-My personal website built with Next.JS, Typscript and Tailwind CSS
+## 🛠 Tech Stack
 
-## Run Locally
+- React
+- Next.js
+- Tailwind CSS
+- Cypress
+
+## 💻 Running Locally
 
 Install dependencies
 
 ```bash
-  nvm use && npm install
+  npm install
 ```
 
 Start the server
@@ -20,7 +21,7 @@ Start the server
   npm run dev
 ```
 
-## Running Tests
+## 🧪 Running Tests
 
 To run e2e tests, run the following command
 
