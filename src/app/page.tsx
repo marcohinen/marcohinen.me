@@ -37,14 +37,15 @@ const Page = () => {
           <SocialLinks />
         </div>
         <div className="group relative mb-4 w-[80px] sm:mb-0 sm:w-[156px]">
-          <div className="opacity-85 absolute -inset-0.5 animate-tilt rounded-full bg-gradient-to-tr from-fuchsia-800 to-purple-700 blur-sm transition duration-1000 group-hover:opacity-100 group-hover:duration-200" />
+          <div className="opacity-85 absolute -inset-0.5 animate-tilt rounded-full bg-gradient-to-tr from-fuchsia-800 to-purple-700 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200" />
+          <div className="absolute -inset-0.5 rounded-full bg-fuchsia-600  opacity-50" />
           <Image
             alt="An avatar of Marco"
             height={156}
             width={156}
             src="/me.png"
             sizes="30vw"
-            className="relative rounded-full p-1"
+            className="relative rounded-full p-px"
             priority
           />
         </div>
