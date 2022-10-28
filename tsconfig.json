@@ -19,8 +19,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es6",
-    "types": ["jest", "@types/testing-library__jest-dom"]
+    "types": ["jest", "@types/testing-library__jest-dom"],
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules", "cypress", "cypress.config.ts"]
 }

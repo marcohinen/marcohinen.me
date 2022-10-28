@@ -19,9 +19,6 @@
 .DS_Store
 *.pem
 
-# package-lock
-package-lock.json
-
 # debug
 npm-debug.log*
 yarn-debug.log*
@@ -49,3 +46,4 @@ storybook-static
 #cypress
 cypress/videos
 cypress/screenshots
+.vscode
