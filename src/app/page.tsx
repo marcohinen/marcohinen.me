@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className="mx-auto my-auto flex max-w-2xl flex-col items-center justify-center border-gray-200 pb-16 dark:border-gray-700">
       <div className="flex flex-col-reverse items-start sm:flex-row">
-        <div className="flex flex-col pr-8">
+        <div className="flex flex-col sm:mr-8">
           <h1 className="mb-1 text-3xl font-bold tracking-tight md:text-5xl ">
             <span className="bg-gradient-to-bl from-blue-400 to-emerald-400 bg-clip-text text-transparent">
               {`Hi, I'm Marco `}
@@ -14,7 +14,7 @@ const Page = () => {
             👋
           </h1>
           <h2 className="mb-4 text-gray-700 dark:text-gray-200">
-            Frontend Engineer at AusPost
+            Frontend Engineer at Australia Post
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
             Currently, building accessible and performant web apps using{' '}
@@ -28,11 +28,11 @@ const Page = () => {
             and{' '}
             <span className="font-semibold text-sky-800 dark:text-sky-500">
               Typescript
-            </span>{' '}
+            </span>
           </p>
           <p className="text-gray-600 dark:text-gray-300 ">
             This{`'`}s my personal website where I try new things and hope to
-            start a blog soon.
+            start a blog soon to share my learnings.
           </p>
           <SocialLinks />
         </div>
