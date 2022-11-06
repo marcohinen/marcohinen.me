@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.2.0 (2022-11-06)
+
+
+### Features
+
+* add vercel analytics ([27da271](https://github.com/marcohinen/marcohinen.me/commit/27da2719ea2a067fbb4d915fcf74fc4599e102ad))
+* next 13 migration ([79e99de](https://github.com/marcohinen/marcohinen.me/commit/79e99de5ead3553e774ef368e06ce24820f5829b))
+
+
+### Bug Fixes
+
+* github actions ([bcd3ed4](https://github.com/marcohinen/marcohinen.me/commit/bcd3ed4aeac7b5ef7edfc280d1e535d9de734c5b))
+* github actions ([7addf01](https://github.com/marcohinen/marcohinen.me/commit/7addf0139ea31eef7aec6dd6e47eb05d060b3f5b))
+* linting job ([3a8f629](https://github.com/marcohinen/marcohinen.me/commit/3a8f62973049803e5b6411d15da229f990e7e088))
+* missing meta tag ([f208179](https://github.com/marcohinen/marcohinen.me/commit/f208179133a8079ad2ad71d9fde2b22d08fd9c43))
+* package-lock.json not being pushed ([c596e7a](https://github.com/marcohinen/marcohinen.me/commit/c596e7ab29933a870fd6251fe78973c637760bf6))
+* removed dark mode toggle tests for now ([c0a3792](https://github.com/marcohinen/marcohinen.me/commit/c0a37921c902029f8e1647f8cebf8649c23b9b5d))
+
 ### [1.1.2](https://github.com/marcohinen/marcohinen.me/compare/v1.1.1...v1.1.2) (2022-10-29)
 
 ### [1.1.1](https://github.com/marcohinen/marcohinen.me/compare/v1.1.0...v1.1.1) (2022-10-28)
