@@ -52,7 +52,7 @@
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
     "autoprefixer": "^10.4.13",
-    "babel-loader": "^9.0.1",
+    "babel-loader": "^9.1.0",
     "commit-and-tag-version": "^10.1.0",
     "cypress": "^10.11.0",
     "cz-conventional-changelog": "3.3.0",
