@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
-    "@commitlint/cli": "^17.2.0",
+    "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@swc/jest": "^0.2.23",
     "@testing-library/jest-dom": "^5.16.5",
