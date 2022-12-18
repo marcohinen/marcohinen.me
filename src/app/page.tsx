@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div className="mx-auto my-auto flex max-w-2xl flex-col items-center justify-center border-gray-200 pb-16 dark:border-gray-700">
       <div className="flex flex-col-reverse items-start sm:flex-row">
-        <div className="flex flex-col sm:mr-8">
+        <div className="flex max-w-[520px] flex-col sm:mr-8">
           <h1 className="mb-1 text-3xl font-bold tracking-tight md:text-5xl ">
             <span className="bg-gradient-to-bl from-blue-400 to-emerald-400 bg-clip-text text-transparent">
               {`Hi, I'm Marco `}
@@ -29,16 +29,18 @@ const Page = () => {
             <span className="font-semibold text-sky-800 dark:text-sky-500">
               Typescript
             </span>
+            .
           </p>
           <p className="text-gray-600 dark:text-gray-300 ">
-            This{`'`}s my personal website where I try new things and hope to
-            start a blog soon to share my learnings.
+            {`I'm passionate about crafting intuitive and visually appealing
+            user interfaces, and I constantly strive to stay current with the
+            latest industry best practices and tools.`}
           </p>
           <SocialLinks />
         </div>
         <div className="group relative mb-4 w-[80px] sm:mb-0 sm:w-[156px]">
           <div className="opacity-85 absolute -inset-0.5 animate-tilt rounded-full bg-gradient-to-tr from-fuchsia-800 to-purple-700 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200" />
-          <div className="absolute -inset-0.5 rounded-full bg-fuchsia-600  opacity-50" />
+          <div className="absolute -inset-0.5 rounded-full bg-fuchsia-600 opacity-50" />
           <Image
             alt="An avatar of Marco"
             height={156}

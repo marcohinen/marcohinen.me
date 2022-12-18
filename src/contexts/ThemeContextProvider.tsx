@@ -7,7 +7,11 @@ type Props = {
 };
 
 function ThemeContextProvider({ children }: Props) {
-  return <ThemeProvider attribute="class">{children}</ThemeProvider>;
+  return (
+    <ThemeProvider attribute="class" defaultTheme="dark">
+      {children}
+    </ThemeProvider>
+  );
 }
 
 export default ThemeContextProvider;
