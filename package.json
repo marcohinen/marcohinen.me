@@ -40,7 +40,7 @@
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.5",
+    "@babel/core": "^7.20.12",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@swc/jest": "^0.2.24",
