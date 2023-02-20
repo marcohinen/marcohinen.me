@@ -54,7 +54,7 @@
     "autoprefixer": "^10.4.13",
     "babel-loader": "^9.1.0",
     "commit-and-tag-version": "^10.1.0",
-    "cypress": "^12.1.0",
+    "cypress": "^12.6.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.30.0",
     "eslint-config-next": "^13.0.7",
